@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="gossip2D.fs" />
+    <Compile Include="gossipFull.fs" />
+    <Compile Include="gossipImp2D.fs" />
+    <Compile Include="gossipLine.fs" />
+    <Compile Include="pushSum2D.fs" />
+    <Compile Include="pushSumLine.fs" />
+    <Compile Include="pushSumFull.fs" />
+    <Compile Include="pushSumImp2D.fs" />
+    <Compile Include="Program.fs" />
+    <PackageReference Include="Akka" Version="1.4.10" />
+    <PackageReference Include="Akka.FSharp" Version="1.4.10" />
+  </ItemGroup>
+</Project>
